@@ -19,7 +19,7 @@
 <script>
 const linkdata = document.getElementById('filedownloaded');
 const token = localStorage.getItem('token');
-const apiUrl="http://3.25.90.61:3000";
+const apiUrl="http://13.55.175.98:3000";
 document.addEventListener('DOMContentLoaded',async()=>{
 try{
 await axios.get(`${apiUrl}/fileHistory`,{ headers: { "Authorization": token } })
