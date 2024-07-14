@@ -50,7 +50,7 @@ sequelize.sync().then(()=>{
     //     console.log(`server is running on https://http://3.25.90.61:${PORT}`);
     // });
     app.listen(PORT,()=>{ 
-        console.log(`server is running on http://3.25.90.61:${PORT}`);
+        console.log(`server is running on http://13.55.175.98:${PORT}`);
     });
 })
 
