@@ -44,7 +44,7 @@ const forgotPassword=async(req,res)=>{
           subject:'Expense Tracker-Reset Password',
           htmlContent:`Dear user,
                 Please click on below link to reset your password:
-                 <a href="http://3.25.90.61:3000/resetpassword/${id}">Reset password</a>
+                 <a href="http://13.55.175.98:3000/resetpassword/${id}">Reset password</a>
                  thanks & regards,
                  Expense Tracker support team`
         })
