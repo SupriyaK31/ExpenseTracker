@@ -51,7 +51,7 @@ async function forgotpassword(e){
     }
     console.log("forget html user email",userDetails);
     const token = localStorage.getItem('token');
-   await axios.post('http://3.25.90.61:3000/forgotpassword',userDetails,
+   await axios.post('http://13.55.175.98:3000/forgotpassword',userDetails,
         { headers:{"Authorization": token}})
         .then((response)=>{
             if(response.status === 200){
